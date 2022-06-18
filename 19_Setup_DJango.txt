@@ -1,0 +1,22 @@
+install sqlite3
+
+Install DJango
+pip install Django==3.2.13
+pip install django-admin-interface
+pip install django-extra-settings
+pip install django-tabbed-admin
+pip install django-ckeditor
+pip install django-crispy-forms
+pip install django-import_export
+pip install reportlab
+pip install django-adminplus
+pip install django-cors-headers
+pip install whitenoise
+
+python manage.py loaddata admin_interface_theme_django.json
+python manage.py loaddata admin_interface_theme_bootstrap.json
+python manage.py loaddata admin_interface_theme_foundation.json
+python manage.py loaddata admin_interface_theme_uswds.json
+
+Run DJango
+python manage.py runserver
