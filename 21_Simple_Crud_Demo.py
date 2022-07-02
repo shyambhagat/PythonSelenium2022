@@ -32,7 +32,5 @@ regionDescInput.send_keys("Test Region")
 saveButton = browser.find_element(By.CSS_SELECTOR, '[value="Save"]')
 saveButton.click()
 
-
-
 time.sleep(60)
 browser.quit()
